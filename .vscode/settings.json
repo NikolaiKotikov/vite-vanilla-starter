@@ -69,7 +69,7 @@
    * Controls if the editor should allow to move selections via drag and drop.
    * Defaults to false.
    */
-  // "editor.dragAndDrop": false,
+  "editor.dragAndDrop": true,
   /**
    * Controls whether copying without a selection copies the current line.
    */
@@ -99,7 +99,7 @@
   /**
    * Controls the font size in pixels.
    */
-  // "editor.fontSize": 12,
+  "editor.fontSize": 14,
   /**
    * Controls the font weight. Accepts 'normal' and 'bold' keywords or numbers values between '100' and '900'.
    */
@@ -108,7 +108,7 @@
    * Controls whether the editor should automatically format the pasted content.
    * Defaults to false.
    */
-  // "editor.formatOnPaste": false,
+  "editor.formatOnPaste": true,
   /**
    * Format a file on save.
    * Defaults to true.
@@ -337,12 +337,12 @@
    * Controls whether the terminal cursor blinks.
    * Defaults to false.
    */
-  // "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorBlinking": true,
   /**
    * Controls the style of terminal cursor.
    * Can be: 'block' (default), 'line' or 'underline'.
    */
-  // "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorStyle": "line"
   /**
    * Controls the width of the cursor when 'terminal.integrated.cursorStyle' is set to 'line'.
    * Defaults to 2.
